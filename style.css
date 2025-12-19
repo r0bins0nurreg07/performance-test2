@@ -1,0 +1,641 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color:  #4D4D4D;
+    font-family: inherit;
+
+}
+body{
+    background-color: rgb(248, 249, 250);
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 249, 250);
+    font-size: 20px;
+  
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.contentnav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contentbtn button{
+    font-size: 20px;
+}
+
+.contentbtn #header1{
+    background-color:#F5F7FA;
+    border-radius: 6px;
+
+}
+
+.contentbtn #header2{
+    background-color: #4CAF4F;
+    border-radius: 6px;
+}
+.contentsection1{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+    padding: 10%;
+}
+.textstart h1{
+    font-size: 64px;
+ 
+}
+.textstart p{
+    font-size: 16px;
+ 
+}
+.btnregister{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.sectionimg1{
+    width: 100%;
+    height: auto;
+}
+.section2{
+    display: grid;
+  
+}
+.section2 .textsection2 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+}
+
+.section2 .textsection2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;  
+}
+
+.sectionimg2 {
+    display: flex;
+    justify-content: center;
+    gap:  180px;
+    width:100%;
+    margin-top: 50px;
+}
+
+.section3 .textsection3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+    margin-top: 80px;
+}
+
+.section3 .textsection3 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;  
+}
+
+.contentcard3{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+
+}
+
+.contentcard article img{
+    width: 150px;
+    height: auto;
+}
+.contentcard article h3{
+    font-size: 28px;
+}
+.contentcard article p{
+     font-size: 16px;
+}
+
+.contentsection4{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+
+.sectionimg4 img{
+    width: 442px;
+    height: 443px;
+}
+.contentsection4 h2{
+    font-size: 36px;
+    
+
+}
+.contentsection4 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btnlearmore{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.section5 .textstart2 h2{
+    display: flex;
+    font-size: 25px;  
+
+}
+
+.section5 .textstart2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;  
+}
+
+.contentcard5  {
+    display:flex;
+
+}
+
+
+.contentsection6{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+.sectionimg6 img{
+    width: 442px;
+    height: 443px;
+}
+.contentsection6 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btnlearmore{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.contentsection7{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+
+.contentsection7 #imgsection7{
+    width: 442px;
+    height: 443 px;
+}
+.sectionimg7{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contentsection7 p{
+    font-size: 16px;
+}
+.contentsection7 h3{
+    color:#4CAF4F; ;
+}
+
+.contentsection7 .section7{
+    display:inline;
+    justify-content:center;
+    
+}
+
+.textstart8 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+    
+    
+}
+.textstart8 p{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+ 
+}
+
+.section8{
+    display: flex;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.section8 img{
+    display: flex;
+
+    width: 368px;
+    height: 286px;
+
+}
+.section9{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.section9 button{
+    width: 100%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section9 h2{
+    margin-top: 70px;
+    font-size: 32px;
+    color: black;
+}
+
+footer{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    background-color: #263238;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    width: 90px;
+    height: auto;
+    padding: 50px;
+}
+
+.contentnavfooter{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+@media (max-width:600px){
+    *{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    color:  #4D4D4D;
+    font-family: inherit;
+
+}
+body{
+    background-color: rgb(248, 249, 250);
+    
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(248, 249, 250);
+    font-size: 20px;
+  
+
+
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+
+}
+
+.contentnav{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.contentbtn button{
+    font-size: 20px;
+}
+
+.contentbtn #header1{
+    background-color:#F5F7FA;
+    border-radius: 6px;
+
+}
+
+.contentbtn #header2{
+    background-color: #4CAF4F;
+    border-radius: 6px;
+}
+.contentsection1{
+    display: grid;
+    grid-template-columns:repeat(2, 1fr);
+    align-items: center;
+    padding: 10%;
+}
+.textstart h1{
+    font-size: 64px;
+ 
+}
+.textstart p{
+    font-size: 16px;
+ 
+}
+.btnregister{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.sectionimg1{
+    width: 100%;
+    height: auto;
+}
+.section2{
+    display: grid;
+  
+}
+.section2 .textsection2 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+}
+
+.section2 .textsection2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;  
+}
+
+.sectionimg2 {
+    display: flex;
+    justify-content: center;
+    gap:  180px;
+    width:100%;
+    margin-top: 50px;
+}
+
+.section3 .textsection3 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+    margin-top: 80px;
+}
+
+.section3 .textsection3 p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;  
+}
+
+.contentcard3{
+    display: grid;
+    grid-template-columns:repeat(3, 1fr);
+    text-align: center;
+    padding: 5%;
+    font-size: 20px;
+
+}
+
+.contentcard article img{
+    width: 150px;
+    height: auto;
+}
+.contentcard article h3{
+    font-size: 28px;
+}
+.contentcard article p{
+     font-size: 16px;
+}
+
+.contentsection4{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+
+.sectionimg4 img{
+    width: 442px;
+    height: 443px;
+}
+.contentsection4 h2{
+    font-size: 36px;
+    
+
+}
+.contentsection4 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btnlearmore{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.section5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.section5 .textstart2 h2{
+    display: flex;
+    font-size: 25px;  
+
+}
+
+.section5 .textstart2 p{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;  
+}
+
+.contentcard5  {
+    display:flex;
+
+}
+
+
+.contentsection6{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+.sectionimg6 img{
+    width: 442px;
+    height: 443px;
+}
+.contentsection6 p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.btnlearmore{
+    width: 25%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+}
+
+.contentsection7{
+    display: flex;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 10%;  
+    gap: 300px;
+    align-items: center;
+}
+
+.contentsection7 #imgsection7{
+    width: 442px;
+    height: 443 px;
+}
+.sectionimg7{
+    display: flex;
+    justify-content:flex-end;
+}
+
+.contentsection7 p{
+    font-size: 16px;
+}
+.contentsection7 h3{
+    color:#4CAF4F; ;
+}
+
+.contentsection7 .section7{
+    display:inline;
+    justify-content:center;
+    
+}
+
+.textstart8 h2{
+    display: flex;
+    justify-content: center;
+    font-size: 36px;  
+    
+    
+}
+.textstart8 p{
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+ 
+}
+
+.section8{
+    display: flex;
+    grid-template-columns:repeat(3, 1fr);
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    
+}
+
+.section8 img{
+    display: flex;
+
+    width: 368px;
+    height: 286px;
+
+}
+.section9{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+.section9 button{
+    width: 100%;
+    height: 36px;
+    background: #4CAF4F;
+    font-size: 16px;
+    text-align: center;
+    border-color: #4CAF4F;
+    border-radius: 4px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.section9 h2{
+    margin-top: 70px;
+    font-size: 32px;
+    color: black;
+}
+
+footer{
+    display: grid;
+    grid-template-columns:repeat(5, 1fr);
+    background-color: #263238;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+footer img{
+    width: 90px;
+    height: auto;
+    padding: 50px;
+}
+
+.contentnavfooter{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+}
